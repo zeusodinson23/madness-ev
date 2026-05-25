@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "731c2ebbe43e00cbf104f9cbefaaaf63",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB",
+    "commence_time": "2026-03-27T23:11:16Z",
+    "home_team": "Duke Blue Devils",
+    "away_team": "St. John's Red Storm",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-03-28T01:10:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:10:01Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": -620
+              },
+              {
+                "name": "St. John's Red Storm",
+                "price": 400
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": -670
+              },
+              {
+                "name": "St. John's Red Storm",
+                "price": 430
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-03-28T01:09:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:40Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": -625
+              },
+              {
+                "name": "St. John's Red Storm",
+                "price": 400
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-03-28T01:08:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:08:18Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": -222
+              },
+              {
+                "name": "St. John's Red Storm",
+                "price": 165
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": -715
+              },
+              {
+                "name": "St. John's Red Storm",
+                "price": 410
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-03-28T01:09:44Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:44Z",
+            "outcomes": [
+              {
+                "name": "Duke Blue Devils",
+                "price": -600
+              },
+              {
+                "name": "St. John's Red Storm",
+                "price": 375
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "38719ab42b9d3e3fa0d45da96fbdf765",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB",
+    "commence_time": "2026-03-27T23:51:14Z",
+    "home_team": "Michigan Wolverines",
+    "away_team": "Alabama Crimson Tide",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-03-28T01:10:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:10:01Z",
+            "outcomes": [
+              {
+                "name": "Alabama Crimson Tide",
+                "price": 350
+              },
+              {
+                "name": "Michigan Wolverines",
+                "price": -520
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Alabama Crimson Tide",
+                "price": 330
+              },
+              {
+                "name": "Michigan Wolverines",
+                "price": -480
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-03-28T01:08:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:08:18Z",
+            "outcomes": [
+              {
+                "name": "Alabama Crimson Tide",
+                "price": 285
+              },
+              {
+                "name": "Michigan Wolverines",
+                "price": -455
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-03-28T01:09:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:40Z",
+            "outcomes": [
+              {
+                "name": "Alabama Crimson Tide",
+                "price": 340
+              },
+              {
+                "name": "Michigan Wolverines",
+                "price": -500
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Alabama Crimson Tide",
+                "price": 370
+              },
+              {
+                "name": "Michigan Wolverines",
+                "price": -625
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-03-28T01:09:44Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:44Z",
+            "outcomes": [
+              {
+                "name": "Alabama Crimson Tide",
+                "price": 325
+              },
+              {
+                "name": "Michigan Wolverines",
+                "price": -500
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "76d32e24b9c66ec3690e1c5a60f1e9cd",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB",
+    "commence_time": "2026-03-28T01:45:00Z",
+    "home_team": "UConn Huskies",
+    "away_team": "Michigan St Spartans",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-03-28T01:10:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:10:01Z",
+            "outcomes": [
+              {
+                "name": "Michigan St Spartans",
+                "price": 114
+              },
+              {
+                "name": "UConn Huskies",
+                "price": -135
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Michigan St Spartans",
+                "price": 114
+              },
+              {
+                "name": "UConn Huskies",
+                "price": -137
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-03-28T01:10:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:10:03Z",
+            "outcomes": [
+              {
+                "name": "Michigan St Spartans",
+                "price": 115
+              },
+              {
+                "name": "UConn Huskies",
+                "price": -135
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-03-28T01:09:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:41Z",
+            "outcomes": [
+              {
+                "name": "Michigan St Spartans",
+                "price": 115
+              },
+              {
+                "name": "UConn Huskies",
+                "price": -135
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-03-28T01:09:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:40Z",
+            "outcomes": [
+              {
+                "name": "Michigan St Spartans",
+                "price": 110
+              },
+              {
+                "name": "UConn Huskies",
+                "price": -130
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Michigan St Spartans",
+                "price": 105
+              },
+              {
+                "name": "UConn Huskies",
+                "price": -136
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-03-28T01:08:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:08:18Z",
+            "outcomes": [
+              {
+                "name": "Michigan St Spartans",
+                "price": 112
+              },
+              {
+                "name": "UConn Huskies",
+                "price": -137
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-03-28T01:09:44Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:44Z",
+            "outcomes": [
+              {
+                "name": "Michigan St Spartans",
+                "price": 115
+              },
+              {
+                "name": "UConn Huskies",
+                "price": -135
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-03-28T01:09:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:50Z",
+            "outcomes": [
+              {
+                "name": "Michigan St Spartans",
+                "price": 115
+              },
+              {
+                "name": "UConn Huskies",
+                "price": -135
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7046f8e5f278fa5a27cefcf8966620e4",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB",
+    "commence_time": "2026-03-28T02:10:00Z",
+    "home_team": "Iowa State Cyclones",
+    "away_team": "Tennessee Volunteers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-03-28T01:10:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:10:01Z",
+            "outcomes": [
+              {
+                "name": "Iowa State Cyclones",
+                "price": -166
+              },
+              {
+                "name": "Tennessee Volunteers",
+                "price": 140
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Iowa State Cyclones",
+                "price": -178
+              },
+              {
+                "name": "Tennessee Volunteers",
+                "price": 146
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-03-28T01:09:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:41Z",
+            "outcomes": [
+              {
+                "name": "Iowa State Cyclones",
+                "price": -175
+              },
+              {
+                "name": "Tennessee Volunteers",
+                "price": 153
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-03-28T01:10:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:10:03Z",
+            "outcomes": [
+              {
+                "name": "Iowa State Cyclones",
+                "price": -172
+              },
+              {
+                "name": "Tennessee Volunteers",
+                "price": 151
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-03-28T01:09:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:40Z",
+            "outcomes": [
+              {
+                "name": "Iowa State Cyclones",
+                "price": -185
+              },
+              {
+                "name": "Tennessee Volunteers",
+                "price": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Iowa State Cyclones",
+                "price": -182
+              },
+              {
+                "name": "Tennessee Volunteers",
+                "price": 145
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-03-28T01:06:11Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:06:11Z",
+            "outcomes": [
+              {
+                "name": "Iowa State Cyclones",
+                "price": -172
+              },
+              {
+                "name": "Tennessee Volunteers",
+                "price": 140
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-03-28T01:09:44Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:44Z",
+            "outcomes": [
+              {
+                "name": "Iowa State Cyclones",
+                "price": -175
+              },
+              {
+                "name": "Tennessee Volunteers",
+                "price": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-03-28T01:09:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:50Z",
+            "outcomes": [
+              {
+                "name": "Iowa State Cyclones",
+                "price": -175
+              },
+              {
+                "name": "Tennessee Volunteers",
+                "price": 150
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ad862e3e6452856177edb4d763ef9df9",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB",
+    "commence_time": "2026-03-28T22:09:00Z",
+    "home_team": "Illinois Fighting Illini",
+    "away_team": "Iowa Hawkeyes",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Illinois Fighting Illini",
+                "price": -300
+              },
+              {
+                "name": "Iowa Hawkeyes",
+                "price": 240
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-03-28T01:10:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:10:01Z",
+            "outcomes": [
+              {
+                "name": "Illinois Fighting Illini",
+                "price": -305
+              },
+              {
+                "name": "Iowa Hawkeyes",
+                "price": 245
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-03-28T01:09:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:40Z",
+            "outcomes": [
+              {
+                "name": "Illinois Fighting Illini",
+                "price": -300
+              },
+              {
+                "name": "Iowa Hawkeyes",
+                "price": 240
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-03-28T01:09:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:41Z",
+            "outcomes": [
+              {
+                "name": "Illinois Fighting Illini",
+                "price": -295
+              },
+              {
+                "name": "Iowa Hawkeyes",
+                "price": 241
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-03-28T01:10:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:10:03Z",
+            "outcomes": [
+              {
+                "name": "Illinois Fighting Illini",
+                "price": -295
+              },
+              {
+                "name": "Iowa Hawkeyes",
+                "price": 241
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Illinois Fighting Illini",
+                "price": -305
+              },
+              {
+                "name": "Iowa Hawkeyes",
+                "price": 230
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-03-28T01:08:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:08:18Z",
+            "outcomes": [
+              {
+                "name": "Illinois Fighting Illini",
+                "price": -333
+              },
+              {
+                "name": "Iowa Hawkeyes",
+                "price": 253
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-03-28T01:09:44Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:44Z",
+            "outcomes": [
+              {
+                "name": "Illinois Fighting Illini",
+                "price": -320
+              },
+              {
+                "name": "Iowa Hawkeyes",
+                "price": 260
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-03-28T01:09:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:50Z",
+            "outcomes": [
+              {
+                "name": "Illinois Fighting Illini",
+                "price": -295
+              },
+              {
+                "name": "Iowa Hawkeyes",
+                "price": 245
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b8f1c265896037786f17893bf5c3df0d",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB",
+    "commence_time": "2026-03-29T00:49:00Z",
+    "home_team": "Arizona Wildcats",
+    "away_team": "Purdue Boilermakers",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Arizona Wildcats",
+                "price": -255
+              },
+              {
+                "name": "Purdue Boilermakers",
+                "price": 205
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2026-03-28T01:10:01Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:10:01Z",
+            "outcomes": [
+              {
+                "name": "Arizona Wildcats",
+                "price": -270
+              },
+              {
+                "name": "Purdue Boilermakers",
+                "price": 220
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-03-28T01:09:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:41Z",
+            "outcomes": [
+              {
+                "name": "Arizona Wildcats",
+                "price": -275
+              },
+              {
+                "name": "Purdue Boilermakers",
+                "price": 220
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2026-03-28T01:10:03Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:10:03Z",
+            "outcomes": [
+              {
+                "name": "Arizona Wildcats",
+                "price": -270
+              },
+              {
+                "name": "Purdue Boilermakers",
+                "price": 222
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2026-03-28T01:09:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:41Z",
+            "outcomes": [
+              {
+                "name": "Arizona Wildcats",
+                "price": -270
+              },
+              {
+                "name": "Purdue Boilermakers",
+                "price": 222
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Arizona Wildcats",
+                "price": -286
+              },
+              {
+                "name": "Purdue Boilermakers",
+                "price": 210
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2026-03-28T01:08:18Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:08:18Z",
+            "outcomes": [
+              {
+                "name": "Arizona Wildcats",
+                "price": -263
+              },
+              {
+                "name": "Purdue Boilermakers",
+                "price": 209
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2026-03-28T01:09:44Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:44Z",
+            "outcomes": [
+              {
+                "name": "Arizona Wildcats",
+                "price": -250
+              },
+              {
+                "name": "Purdue Boilermakers",
+                "price": 210
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2026-03-28T01:09:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:50Z",
+            "outcomes": [
+              {
+                "name": "Arizona Wildcats",
+                "price": -270
+              },
+              {
+                "name": "Purdue Boilermakers",
+                "price": 225
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c16c0d972e1c9ed5e2190c74f1a17079",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB",
+    "commence_time": "2026-04-02T00:00:00Z",
+    "home_team": "Colorado Buffaloes",
+    "away_team": "Oklahoma Sooners",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Colorado Buffaloes",
+                "price": 240
+              },
+              {
+                "name": "Oklahoma Sooners",
+                "price": -300
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6f0765b4c7ea31444ec8a23fb86e6648",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB",
+    "commence_time": "2026-04-02T02:30:00Z",
+    "home_team": "Minnesota Golden Gophers",
+    "away_team": "Baylor Bears",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Baylor Bears",
+                "price": -162
+              },
+              {
+                "name": "Minnesota Golden Gophers",
+                "price": 134
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "930319d687992d02e211708973d066c7",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB",
+    "commence_time": "2026-04-02T23:00:00Z",
+    "home_team": "New Mexico Lobos",
+    "away_team": "Tulsa Golden Hurricane",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "New Mexico Lobos",
+                "price": -178
+              },
+              {
+                "name": "Tulsa Golden Hurricane",
+                "price": 146
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-03-28T01:09:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:41Z",
+            "outcomes": [
+              {
+                "name": "New Mexico Lobos",
+                "price": -175
+              },
+              {
+                "name": "Tulsa Golden Hurricane",
+                "price": 145
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9bcb056972126771a4d79b063cdb1a6c",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB",
+    "commence_time": "2026-04-03T00:00:00Z",
+    "home_team": "West Virginia Mountaineers",
+    "away_team": "Stanford Cardinal",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Stanford Cardinal",
+                "price": -110
+              },
+              {
+                "name": "West Virginia Mountaineers",
+                "price": -110
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7e161041c04af752378a72c61faa0077",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB",
+    "commence_time": "2026-04-03T01:30:00Z",
+    "home_team": "Auburn Tigers",
+    "away_team": "Illinois St Redbirds",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Auburn Tigers",
+                "price": -275
+              },
+              {
+                "name": "Illinois St Redbirds",
+                "price": 220
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2026-03-28T01:09:41Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:41Z",
+            "outcomes": [
+              {
+                "name": "Auburn Tigers",
+                "price": -285
+              },
+              {
+                "name": "Illinois St Redbirds",
+                "price": 225
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "afb08eee9f956db45e4f8c8249b5af8f",
+    "sport_key": "basketball_ncaab",
+    "sport_title": "NCAAB",
+    "commence_time": "2026-04-03T02:30:00Z",
+    "home_team": "Creighton Bluejays",
+    "away_team": "Rutgers Scarlet Knights",
+    "bookmakers": [
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2026-03-28T01:09:39Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "last_update": "2026-03-28T01:09:39Z",
+            "outcomes": [
+              {
+                "name": "Creighton Bluejays",
+                "price": -172
+              },
+              {
+                "name": "Rutgers Scarlet Knights",
+                "price": 142
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

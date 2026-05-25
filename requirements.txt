@@ -1,0 +1,24 @@
+# MadnessEV - March Madness Expected Value Dashboard
+# Install with: pip install -r requirements.txt
+
+# Data manipulation
+pandas>=2.0
+numpy>=1.24
+
+# API calls and web scraping
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=4.9
+
+# Dashboard and visualization
+streamlit>=1.28
+plotly>=5.18
+
+# Statistics and probability
+scipy>=1.11
+
+# Environment and configuration
+python-dotenv>=1.0
+
+# Scheduling (for automated data pulls)
+schedule>=1.2

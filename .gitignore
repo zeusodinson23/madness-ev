@@ -1,0 +1,33 @@
+# Environment and secrets (NEVER commit these)
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SQLite database (regenerate locally)
+data/*.db
+
+# Streamlit cache (keep config.toml but ignore secrets)
+.streamlit/secrets.toml

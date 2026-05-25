@@ -1,0 +1,68 @@
+team_a,team_b,seed_a,seed_b,odds_a,odds_b,round,winner,source,score
+UMBC,Howard,16,16,-120,100,First Four,Howard,DraftKings_real,Howard 86-83 UMBC
+NC State,Texas,11,11,-120,100,First Four,Texas,DraftKings_real,Texas 68-66 NC State
+SMU,Miami OH,11,11,-325,260,First Four,Miami OH,DraftKings_real,Miami OH 89-79 SMU
+Lehigh,Prairie View AM,16,16,-120,100,First Four,Prairie View AM,DraftKings_real,Prairie View AM 67-55 Lehigh
+Ohio State,TCU,8,9,-218,180,First Round,TCU,DraftKings_real,TCU 66-64 Ohio State
+Nebraska,Troy,4,13,-1450,850,First Round,Nebraska,DraftKings_real,Nebraska 76-47 Troy
+Louisville,South Florida,6,11,-345,275,First Round,Louisville,DraftKings_real,Louisville 83-79 South Florida
+Wisconsin,High Point,5,12,-950,625,First Round,High Point,DraftKings_real,High Point 83-82 Wisconsin
+Duke,Siena,1,16,-20000,3500,First Round,Duke,DraftKings_real,Duke 71-65 Siena
+Vanderbilt,McNeese,5,12,-550,410,First Round,Vanderbilt,DraftKings_real,Vanderbilt 78-68 McNeese
+Michigan State,North Dakota State,3,14,-1600,950,First Round,Michigan State,DraftKings_real,Michigan State 92-67 North Dakota State
+Arkansas,Hawaii,4,13,-2400,1200,First Round,Arkansas,DraftKings_real,Arkansas 97-78 Hawaii — Hawaii not in CBBD
+VCU,North Carolina,11,6,-142,120,First Round,VCU,DraftKings_real,VCU 82-78 North Carolina OT
+Michigan,Howard,1,16,-5000,1400,First Round,Michigan,DraftKings_real,Michigan 101-80 Howard
+Texas,BYU,11,6,-170,150,First Round,Texas,approximated,Texas 79-71 BYU — Texas via First Four; odds approximated
+Texas AM,Saint Mary's,10,7,-175,145,First Round,Texas AM,DraftKings_real,Texas AM 63-50 Saint Mary's
+Illinois,Penn,3,14,-20000,3500,First Round,Illinois,DraftKings_real,Illinois 105-70 Penn
+Saint Louis,Georgia,9,8,-124,104,First Round,Saint Louis,DraftKings_real,Saint Louis 102-77 Georgia
+Gonzaga,Kennesaw State,3,14,-8000,2200,First Round,Gonzaga,DraftKings_real,Gonzaga 73-64 Kennesaw State
+Houston,Idaho,2,15,-10000,3000,First Round,Houston,DraftKings_real,Houston 78-47 Idaho
+Kentucky,Santa Clara,7,10,-162,136,First Round,Kentucky,DraftKings_real,Kentucky 89-84 Santa Clara OT
+Texas Tech,Akron,5,12,-410,320,First Round,Texas Tech,DraftKings_real,Texas Tech 91-71 Akron
+Arizona,Long Island,1,16,-100000,5000,First Round,Arizona,DraftKings_real,Arizona 92-52 Long Island
+Virginia,Wright State,3,14,-3200,1400,First Round,Virginia,DraftKings_real,Virginia 82-73 Wright State
+Iowa State,Tennessee State,2,15,-6500,2000,First Round,Iowa State,DraftKings_real,Iowa State 108-74 Tennessee State
+Alabama,Hofstra,4,13,-675,490,First Round,Alabama,DraftKings_real,Alabama 90-70 Hofstra
+Utah State,Villanova,9,8,-114,135,First Round,Utah State,DraftKings_real,Utah State 86-76 Villanova
+Iowa,Clemson,9,8,-142,120,First Round,Iowa,DraftKings_real,Iowa 67-61 Clemson
+Miami FL,Missouri,7,10,-155,130,First Round,Miami FL,DraftKings_real,Miami FL 80-66 Missouri
+Purdue,Queens,2,15,-8000,2200,First Round,Purdue,DraftKings_real,Purdue 104-71 Queens
+St. John's,Northern Iowa,5,12,-425,330,First Round,St. John's,DraftKings_real,St. John's 79-53 Northern Iowa
+Kansas,Cal Baptist,4,13,-535,400,First Round,Kansas,DraftKings_real,Kansas 68-60 Cal Baptist
+UCLA,UCF,7,10,-278,225,First Round,UCLA,DraftKings_real,UCLA 75-71 UCF
+UConn,Furman,2,15,-8000,2200,First Round,UConn,DraftKings_real,UConn 82-71 Furman
+Florida,Prairie View AM,1,16,-15000,4000,First Round,Florida,DraftKings_real,Florida 114-55 Prairie View AM
+Tennessee,Miami OH,6,11,-662,460,First Round,Tennessee,DraftKings_real,Tennessee 78-56 Miami OH — odds from FOX Sports
+Michigan,Saint Louis,1,9,-750,525,Second Round,Michigan,approximated,Michigan 95-72 Saint Louis
+Michigan State,Louisville,3,6,-450,350,Second Round,Michigan State,approximated,Michigan State 77-69 Louisville
+Duke,TCU,1,9,-800,560,Second Round,Duke,approximated,Duke 81-58 TCU
+Houston,Texas AM,2,10,-800,560,Second Round,Houston,approximated,Houston 88-57 Texas AM
+Texas,Gonzaga,11,3,280,-360,Second Round,Texas,approximated,Texas 74-68 Gonzaga — upset
+Nebraska,Vanderbilt,4,5,-162,140,Second Round,Nebraska,approximated,Nebraska 74-72 Vanderbilt
+Arkansas,High Point,4,12,-370,290,Second Round,Arkansas,approximated,Arkansas 94-88 High Point
+Illinois,VCU,3,11,-550,380,Second Round,Illinois,approximated,Illinois 76-55 VCU
+Texas Tech,Alabama,5,4,-118,-102,Second Round,Alabama,DraftKings_real,Alabama 90-65 Texas Tech
+Iowa State,Kentucky,2,7,-230,190,Second Round,Iowa State,DraftKings_real,Iowa State 82-63 Kentucky
+St. John's,Kansas,5,4,-166,140,Second Round,St. John's,DraftKings_real,St. John's 67-65 Kansas
+Tennessee,Virginia,6,3,-118,-102,Second Round,Tennessee,DraftKings_real,Tennessee 79-72 Virginia
+Iowa,Florida,9,1,440,-600,Second Round,Iowa,DraftKings_real,Iowa 73-72 Florida — upset
+Utah State,Arizona,9,1,550,-800,Second Round,Arizona,DraftKings_real,Arizona 78-66 Utah State
+UCLA,UConn,7,2,164,-198,Second Round,UConn,DraftKings_real,UConn 73-57 UCLA
+Miami FL,Purdue,7,2,-420,330,Second Round,Purdue,DraftKings_real,Purdue 79-69 Miami FL
+Duke,St. John's,1,5,-620,400,Sweet 16,Duke,OddsAPI_real,Duke 80-75 St. John's
+Michigan,Alabama,1,4,-455,370,Sweet 16,Michigan,OddsAPI_real,Michigan 90-77 Alabama
+UConn,Michigan State,2,3,-130,115,Sweet 16,UConn,OddsAPI_real,UConn 67-63 Michigan State
+Iowa State,Tennessee,2,6,-166,153,Sweet 16,Tennessee,OddsAPI_real,Tennessee 76-62 Iowa State — Tennessee upset Iowa State
+Illinois,Houston,3,2,-300,240,Sweet 16,Illinois,approximated,Illinois 65-55 Houston — game before March 28 snapshot
+Iowa,Nebraska,9,4,230,-290,Sweet 16,Iowa,approximated,Iowa 77-71 Nebraska
+Arizona,Arkansas,1,4,-600,430,Sweet 16,Arizona,approximated,Arizona 109-88 Arkansas
+Purdue,Texas,2,11,-400,310,Sweet 16,Purdue,approximated,Purdue 79-77 Texas
+Illinois,Iowa,3,9,-295,240,Elite Eight,Illinois,OddsAPI_real,Illinois 71-59 Iowa
+Arizona,Purdue,1,2,-250,210,Elite Eight,Arizona,OddsAPI_real,Arizona 79-64 Purdue
+Michigan,Tennessee,1,6,-800,560,Elite Eight,Michigan,approximated,Michigan 95-62 Tennessee
+UConn,Duke,2,1,165,-200,Elite Eight,UConn,approximated,UConn 73-72 Duke
+Michigan,Arizona,1,1,-150,130,Final Four,Michigan,approximated,Michigan 91-73 Arizona
+Illinois,UConn,3,2,145,-175,Final Four,UConn,approximated,UConn 71-62 Illinois
+Michigan,UConn,1,2,-180,155,Championship,Michigan,VegasInsider_real,Michigan 69-63 UConn
