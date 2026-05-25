@@ -1,145 +1,151 @@
-# MadnessEV 🏀
+# MadnessEV
 
-**March Madness Expected Value Dashboard**
+**A sports betting analytics dashboard for the 2026 NCAA Men's Basketball Tournament.**
 
-A Python application that analyzes NCAA Tournament betting odds to identify positive expected value (+EV) betting opportunities.
+MadnessEV pulls team efficiency ratings, builds win probability models, and compares them against real bookmaker odds to find positive expected value betting opportunities. The full 2026 tournament (67 games) is backtested with three models and tracked through a Streamlit dashboard with live model switching, Kelly criterion sizing, and cumulative P&L visualisation.
+
+**[Live Demo](https://zeusodinson23-madness-ev.streamlit.app)** &nbsp;|&nbsp; Built by Dhyey
+
+---
 
 ## What It Does
 
-- 📊 Pulls live betting odds from multiple sportsbooks (DraftKings, FanDuel, BetMGM, etc.)
-- 📈 Computes implied probabilities from betting lines
-- 🎯 Compares market odds against your model's win probabilities
-- 💰 Identifies mispriced bets (positive expected value)
-- 📉 Tracks line movement and hypothetical P&L
+Bookmakers price every game with a built-in profit margin. When a model consistently estimates a team's win probability higher than what the market implies, that gap is a positive expected value betting opportunity. MadnessEV quantifies this gap across every game of the 2026 tournament and simulates what would have happened if you had bet every identified edge.
 
-## Quick Start
+The dashboard lets you switch between three models, adjust Kelly fraction and starting bankroll, filter by round and data quality, and see how every decision plays out across the P&L curve.
 
-### 1. Install Dependencies
+---
 
+## Key Findings
+
+Running all three models on the corrected 67-game dataset with Quarter Kelly staking on a $1,000 bankroll:
+
+| Model | Bets | Win Rate | Net Profit | ROI on Wagered |
+|---|---|---|---|---|
+| V1 — Log5 | 43 | 51.2% | +$381.50 | +20.8% |
+| V2 — Efficiency | 49 | 67.3% | +$409.62 | +15.3% |
+| V3 — Blend | 46 | 58.7% | +$390.60 | +18.5% |
+
+The most counterintuitive result: V2 wins 67% of bets but earns a lower ROI than V1 which wins only 51%. Win rate is a misleading metric in betting. V1 identifies fewer but larger market inefficiencies, generating more return per dollar risked. This mirrors a core principle in quantitative finance — number of winning positions tells you nothing without knowing the return on each.
+
+V1 and V2 produce nearly identical probabilities on most games (average difference under 2 percentage points) because Barthag is derived from the same AdjO and AdjD data that V2 uses directly. Their convergence confirms internal consistency rather than redundancy.
+
+---
+
+## Models
+
+**V1 — Log5.** Takes each team's Barthag (probability of beating an average D-I team) and applies the Log5 formula invented by Bill James. Simple, well-calibrated, best ROI of the three.
+
+**V2 — Efficiency Model.** Directly matches each team's adjusted offensive efficiency against the opponent's adjusted defensive efficiency, estimates expected scoring margin, and converts to win probability using a normal distribution with historical standard deviation of 11 points.
+
+**V3 — Blend.** Weighted average of V1 and V2 (50/50). Flags any game where the two models disagree by 5+ percentage points as requiring extra scrutiny.
+
+---
+
+## Data Sources
+
+- **Team efficiency:** College Basketball Data API (collegebasketballdata.com) — AdjO and AdjD for all 365 D-I teams, 2026 season
+- **Barthag:** Calculated from AdjO and AdjD using the community approximation formula (average deviation from published values: ~0.009)
+- **Odds:** The Odds API live snapshot (March 28), DraftKings opening lines via OutKick and ESPN, VegasInsider for the Championship
+- **Tournament results:** Verified against NCAA.com, CBS Sports, On3, and ESPN for all 67 games
+
+50 of 67 games use real published bookmaker odds. 17 use seed-based approximations and are labeled accordingly in the dashboard. Approximated games should be excluded from performance evaluation.
+
+---
+
+## Running Locally
+
+**1. Clone the repo**
 ```bash
+git clone https://github.com/zeusodinson23/madness-ev.git
 cd madness-ev
+```
+
+**2. Create and activate a virtual environment**
+```bash
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# Mac/Linux
+source .venv/bin/activate
+```
+
+**3. Install dependencies**
+```bash
 pip install -r requirements.txt
 ```
 
-### 2. Get Your API Key
+**4. Set up API keys**
 
-1. Go to [The Odds API](https://the-odds-api.com) and sign up (free)
-2. Copy your API key from the dashboard
-3. Create a `.env` file in the project root:
-
+Create a `.env` file in the project root:
 ```
-ODDS_API_KEY=your_actual_api_key_here
+ODDS_API_KEY=your_odds_api_key
+CBBD_API_KEY=your_cbbd_api_key
 ```
 
-### 3. Fetch Odds
+Both keys are free. Get The Odds API key at [the-odds-api.com](https://the-odds-api.com) and CBBD key at [collegebasketballdata.com](https://collegebasketballdata.com/key).
 
+The team stats cache (`data/raw/team_stats_cache.csv`) is included in the repo so the app runs immediately without needing to call CBBD — the tournament is over and the data is static.
+
+**5. Run the dashboard**
 ```bash
-# Use cached data (for development)
-python src/odds_fetcher.py
-
-# Force fresh API call
-python src/odds_fetcher.py --force
+streamlit run app.py
 ```
 
-### 4. Process and Analyze
-
-```bash
-python src/odds_processor.py
-```
+---
 
 ## Project Structure
 
 ```
 madness-ev/
-├── config/                # Configuration and settings
-│   └── settings.py        # API keys, constants, paths
+├── app.py                          # Streamlit dashboard (4 pages)
+├── run_backtest.py                 # Model comparison runner
+├── requirements.txt
+│
+├── src/
+│   ├── barttorvik_scraper.py       # CBBD API fetcher with 3-layer caching
+│   ├── model.py                    # V1 Log5, V2 Efficiency, V3 Blend models
+│   ├── backtest.py                 # Full backtest engine
+│   ├── data_compiler.py            # Loads and merges odds data sources
+│   ├── utils.py                    # EV, Kelly, vig removal, odds conversion
+│   ├── odds_fetcher.py             # The Odds API integration
+│   └── team_names.py               # Name normalisation and aliases
+│
 ├── data/
-│   ├── raw/               # Raw API responses (JSON)
-│   ├── processed/         # Clean CSVs
-│   └── historical/        # Reference data
-├── src/                   # Core Python modules
-│   ├── odds_fetcher.py    # Pull odds from API
-│   ├── odds_processor.py  # Convert to probabilities
-│   ├── utils.py           # Odds conversion, EV calc
-│   └── model.py           # Win probability models (coming soon)
-├── pages/                 # Streamlit dashboard pages
-├── notebooks/             # Jupyter notebooks
-└── scripts/               # CLI utilities
+│   ├── raw/
+│   │   ├── odds_data.json          # Live odds snapshot (March 28, 2026)
+│   │   └── team_stats_cache.csv    # CBBD efficiency ratings, all 365 teams
+│   ├── historical/
+│   │   └── 2026_tournament_odds.csv # All 67 games, verified results and odds
+│   └── processed/
+│       ├── backtest_v1.csv
+│       ├── backtest_v2.csv
+│       └── backtest_v3.csv
+│
+├── config/
+│   └── settings.py
+│
+└── .streamlit/
+    └── config.toml                 # Light theme config
 ```
 
-## Key Concepts
-
-### American Odds → Probability
-
-```python
-# Favorite: -150 means bet $150 to win $100
-# Underdog: +200 means bet $100 to win $200
-
-from src.utils import american_to_implied_prob
-
-american_to_implied_prob(-150)  # → 0.60 (60%)
-american_to_implied_prob(+200)  # → 0.33 (33%)
-```
-
-### Expected Value
-
-```python
-from src.utils import calculate_ev, american_to_decimal
-
-# You think Team X has 40% chance, market offers +200
-model_prob = 0.40
-decimal_odds = american_to_decimal(+200)  # 3.0
-
-ev = calculate_ev(model_prob, decimal_odds)  # → +$20 per $100 bet
-```
-
-### The Vig (Bookmaker's Edge)
-
-When you add implied probabilities for both sides, they sum to >100%:
-- Team A: -110 → 52.4%
-- Team B: -110 → 52.4%
-- Total: 104.8% (the extra 4.8% is the vig)
-
-We remove this to get "true" probabilities for fair comparison.
-
-## Tournament Status
-
-**2026 NCAA Men's Basketball Tournament**
-- ✅ First Four: March 17-18
-- ✅ First Round: March 19-20
-- 🔴 **Round of 32: March 21-22** ← Current
-- ⬜ Sweet 16: March 26-27
-- ⬜ Elite Eight: March 28-29
-- ⬜ Final Four: April 4
-- ⬜ Championship: April 6
-
-## Coming Soon
-
-- [ ] Barttorvik scraper for team analytics
-- [ ] Log5 win probability model
-- [ ] Streamlit dashboard
-- [ ] Line movement tracking
-- [ ] P&L tracker
-- [ ] Historical backtesting
+---
 
 ## Tech Stack
 
-- **Python 3.11+**
-- **pandas** - Data manipulation
-- **requests** - API calls
-- **Streamlit** - Dashboard (coming soon)
-- **Plotly** - Visualization (coming soon)
-- **SQLite** - Data storage (coming soon)
+Python 3.11, pandas, numpy, scipy, Streamlit, Plotly, CBBD API, The Odds API
 
-## API Budget
+---
 
-Free tier: 500 requests/month
+## Limitations
 
-**Budget strategy:**
-- Cached responses in `data/raw/` prevent redundant calls
-- Set `USE_CACHE=True` in settings during development
-- Each odds fetch = 1 request
-- Tournament needs ~180 calls (12/day × 15 game days)
+- 67 games is insufficient for statistically robust conclusions about model edge
+- First Round odds are opening lines from Selection Sunday, not closing lines
+- V2 uses league-average tempo (68 possessions) since CBBD does not provide adjusted tempo
+- Single season — multi-year backtesting needed to confirm genuine edge
+- Arkansas vs Hawaii (First Round) is skipped because Hawaii is not in the CBBD database
+
+---
 
 ## License
 
