@@ -950,9 +950,9 @@ elif page == "Methodology":
     st.markdown("""
     <div class="meth-callout">
         Backtest results with Quarter Kelly staking on a $1,000 starting bankroll:<br>
-        V1 (Log5): 22W-21L &nbsp;|&nbsp; 51.2% win rate &nbsp;|&nbsp; +$381.50 profit &nbsp;|&nbsp; 20.8% ROI on wagered<br>
-        V2 (Efficiency): 33W-16L &nbsp;|&nbsp; 67.3% win rate &nbsp;|&nbsp; +$409.62 profit &nbsp;|&nbsp; 15.3% ROI on wagered<br>
-        V3 (Blend): 27W-19L &nbsp;|&nbsp; 58.7% win rate &nbsp;|&nbsp; +$390.60 profit &nbsp;|&nbsp; 18.5% ROI on wagered
+        V1 (Log5): 20W-22L &nbsp;|&nbsp; 47.6% win rate &nbsp;|&nbsp; +$192.37 profit &nbsp;|&nbsp; 12.6% ROI on wagered<br>
+        V2 (Efficiency): 31W-16L &nbsp;|&nbsp; 66.0% win rate &nbsp;|&nbsp; +$205.07 profit &nbsp;|&nbsp; 8.3% ROI on wagered<br>
+        V3 (Blend): 25W-20L &nbsp;|&nbsp; 55.6% win rate &nbsp;|&nbsp; +$195.34 profit &nbsp;|&nbsp; 10.6% ROI on wagered
     </div>
     """, unsafe_allow_html=True)
 

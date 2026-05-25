@@ -22,9 +22,9 @@ Running all three models on the corrected 67-game dataset with Quarter Kelly sta
 
 | Model | Bets | Win Rate | Net Profit | ROI on Wagered |
 |---|---|---|---|---|
-| V1 — Log5 | 43 | 51.2% | +$381.50 | +20.8% |
-| V2 — Efficiency | 49 | 67.3% | +$409.62 | +15.3% |
-| V3 — Blend | 46 | 58.7% | +$390.60 | +18.5% |
+| V1 — Log5 | 42 | 47.6% | +$192.37 | +12.6% |
+| V2 — Efficiency | 47 | 66.0% | +$205.07 | +8.3% |
+| V3 — Blend | 45 | 55.6% | +$195.34 | +10.6% |
 
 The most counterintuitive result: V2 wins 67% of bets but earns a lower ROI than V1 which wins only 51%. Win rate is a misleading metric in betting. V1 identifies fewer but larger market inefficiencies, generating more return per dollar risked. This mirrors a core principle in quantitative finance — number of winning positions tells you nothing without knowing the return on each.
 
