@@ -924,9 +924,9 @@ elif page == "Methodology":
 
     st.markdown("""
     <p class="meth-body">
-    <strong>Win rate is a misleading metric in betting.</strong> V2 achieved a 67% win rate across
-    49 bets while V1 won only 51% of 43 bets. Most people would call V2 the better model. But V1
-    produced a higher ROI of 20.8% against V2's 15.3%. The reason: V2 bets more frequently on heavy
+    <strong>Win rate is a misleading metric in betting.</strong> V2 achieved a 67.3% win rate across
+    49 bets while V1 won only 50.0% of 44 bets. Most people would call V2 the better model. But V1
+    produced a higher ROI of 27.2% against V2's 17.2%. The reason: V2 bets more frequently on heavy
     favourites who win often but pay out very little. V1 finds fewer but larger edges at better
     prices, generating more return per dollar risked. This mirrors a well-known principle in
     quantitative finance: number of winning trades is irrelevant without knowing the return on each.
@@ -950,9 +950,9 @@ elif page == "Methodology":
     st.markdown("""
     <div class="meth-callout">
         Backtest results with Quarter Kelly staking on a $1,000 starting bankroll:<br>
-        V1 (Log5): 20W-22L &nbsp;|&nbsp; 47.6% win rate &nbsp;|&nbsp; +$192.37 profit &nbsp;|&nbsp; 12.6% ROI on wagered<br>
-        V2 (Efficiency): 31W-16L &nbsp;|&nbsp; 66.0% win rate &nbsp;|&nbsp; +$205.07 profit &nbsp;|&nbsp; 8.3% ROI on wagered<br>
-        V3 (Blend): 25W-20L &nbsp;|&nbsp; 55.6% win rate &nbsp;|&nbsp; +$195.34 profit &nbsp;|&nbsp; 10.6% ROI on wagered
+        V1 (Log5): 22W-22L &nbsp;|&nbsp; 50.0% win rate &nbsp;|&nbsp; +$403.13 profit &nbsp;|&nbsp; 27.2% ROI on wagered<br>
+        V2 (Efficiency): 33W-16L &nbsp;|&nbsp; 67.3% win rate &nbsp;|&nbsp; +$423.94 profit &nbsp;|&nbsp; 17.2% ROI on wagered<br>
+        V3 (Blend): 27W-20L &nbsp;|&nbsp; 57.4% win rate &nbsp;|&nbsp; +$408.49 profit &nbsp;|&nbsp; 22.7% ROI on wagered
     </div>
     """, unsafe_allow_html=True)
 

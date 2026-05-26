@@ -4,7 +4,7 @@
 
 MadnessEV pulls team efficiency ratings, builds win probability models, and compares them against real bookmaker odds to find positive expected value betting opportunities. The full 2026 tournament (67 games) is backtested with three models and tracked through a Streamlit dashboard with live model switching, Kelly criterion sizing, and cumulative P&L visualisation.
 
-**[Live Demo](https://madness-ev.streamlit.app)** &nbsp;|&nbsp; Built by Dhyey
+**[Live Demo](https://madness-ev.streamlit.app)** &nbsp;|&nbsp;
 
 ---
 
@@ -22,11 +22,11 @@ Running all three models on the corrected 67-game dataset with Quarter Kelly sta
 
 | Model | Bets | Win Rate | Net Profit | ROI on Wagered |
 |---|---|---|---|---|
-| V1 — Log5 | 42 | 47.6% | +$192.37 | +12.6% |
-| V2 — Efficiency | 47 | 66.0% | +$205.07 | +8.3% |
-| V3 — Blend | 45 | 55.6% | +$195.34 | +10.6% |
+| V1 — Log5 | 44 | 50.0% | +$403.13 | +27.2% |
+| V2 — Efficiency | 49 | 67.3% | +$423.94 | +17.2% |
+| V3 — Blend | 47 | 57.4% | +$408.49 | +22.7% |
 
-The most counterintuitive result: V2 wins 67% of bets but earns a lower ROI than V1 which wins only 51%. Win rate is a misleading metric in betting. V1 identifies fewer but larger market inefficiencies, generating more return per dollar risked. This mirrors a core principle in quantitative finance — number of winning positions tells you nothing without knowing the return on each.
+The most counterintuitive result: V2 wins 67.3% of bets but earns a lower ROI than V1 which wins only 50.0%. Win rate is a misleading metric in betting. V1 identifies fewer but larger market inefficiencies, generating more return per dollar risked. This mirrors a core principle in quantitative finance — number of winning positions tells you nothing without knowing the return on each.
 
 V1 and V2 produce nearly identical probabilities on most games (average difference under 2 percentage points) because Barthag is derived from the same AdjO and AdjD data that V2 uses directly. Their convergence confirms internal consistency rather than redundancy.
 

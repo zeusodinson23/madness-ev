@@ -64,5 +64,5 @@ Elite Eight,Arizona,Purdue,Arizona,0.6948,0.3052,0.6989,0.3011,-0.0041,0.0041,-2
 Elite Eight,Michigan,Tennessee,Michigan,0.8071,0.1929,0.8505,0.1495,-0.0434,0.0434,-9.2,23.46,Tennessee,15.51,540.0,loss,-15.51,413.05,1413.05,real,False,
 Elite Eight,UConn,Duke,UConn,0.261,0.739,0.3237,0.6763,-0.0627,0.0627,-22.74,4.69,Duke,39.78,-240.0,loss,-39.78,373.27,1373.27,real,False,
 Final Four,Michigan,Arizona,Michigan,0.5867,0.4133,0.5261,0.4739,0.0606,-0.0606,6.76,-16.51,Michigan,28.31,-122.0,win,23.2,396.47,1396.47,real,False,
-Final Four,Illinois,UConn,Illinois,0.6114,0.3886,0.5427,0.4573,0.0687,-0.0687,8.17,-18.39,Illinois,37.08,-130.0,win,28.52,425.0,1425.0,real,False,
-Championship,Michigan,UConn,Michigan,0.765,0.235,0.6211,0.3789,0.1439,-0.1439,19.0,-40.08,Michigan,121.84,-180.0,win,67.69,492.69,1492.69,real,False,
+Final Four,Illinois,UConn,UConn,0.6114,0.3886,0.5427,0.4573,0.0687,-0.0687,8.17,-18.39,Illinois,37.08,-130.0,loss,-37.08,359.39,1359.39,real,False,
+Championship,Michigan,UConn,Michigan,0.765,0.235,0.6211,0.3789,0.1439,-0.1439,19.0,-40.08,Michigan,116.23,-180.0,win,64.57,423.97,1423.97,real,False,
