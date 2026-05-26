@@ -10,10 +10,10 @@ Wisconsin,High Point,5,12,-950,625,First Round,High Point,DraftKings_real,High P
 Duke,Siena,1,16,-20000,3500,First Round,Duke,DraftKings_real,Duke 71-65 Siena
 Vanderbilt,McNeese,5,12,-550,410,First Round,Vanderbilt,DraftKings_real,Vanderbilt 78-68 McNeese
 Texas AM,Saint Mary's,10,7,145,-175,First Round,Texas AM,DraftKings_real,Texas AM 63-50 Saint Mary's
-Texas,BYU,11,6,130,-145,First Round,Texas,approximated,Texas 79-71 BYU
+Texas,BYU,11,6,130,-145,First Round,Texas,DraftKings_real,Texas 79-71 BYU
 Michigan,Howard,1,16,-5000,1400,First Round,Michigan,DraftKings_real,Michigan 101-80 Howard
 VCU,North Carolina,11,6,120,-144,First Round,VCU,DraftKings_real,VCU 82-78 North Carolina OT
-Arkansas,Hawaii,4,13,-2400,1200,First Round,Arkansas,DraftKings_real,Arkansas 97-78 Hawaii — Hawaii not in CBBD
+Arkansas,Hawaii,4,13,-2400,1200,First Round,Arkansas,DraftKings_real,Arkansas 97-78 Hawaii
 Michigan State,North Dakota State,3,14,-1600,950,First Round,Michigan State,DraftKings_real,Michigan State 92-67 North Dakota State
 Gonzaga,Kennesaw State,3,14,-8000,2200,First Round,Gonzaga,DraftKings_real,Gonzaga 73-64 Kennesaw State
 Houston,Idaho,2,15,-10000,3000,First Round,Houston,DraftKings_real,Houston 78-47 Idaho
@@ -35,14 +35,14 @@ Florida,Prairie View AM,1,16,-15000,4000,First Round,Florida,DraftKings_real,Flo
 Tennessee,Miami OH,6,11,-662,460,First Round,Tennessee,DraftKings_real,Tennessee 78-56 Miami OH
 UCLA,UCF,7,10,-278,225,First Round,UCLA,DraftKings_real,UCLA 75-71 UCF
 UConn,Furman,2,15,-8000,2200,First Round,UConn,DraftKings_real,UConn 82-71 Furman
-Michigan,Saint Louis,1,9,-750,525,Second Round,Michigan,approximated,Michigan 95-72 Saint Louis
-Michigan State,Louisville,3,6,-210,175,Second Round,Michigan State,approximated,Michigan State 77-69 Louisville
-Duke,TCU,1,9,-800,560,Second Round,Duke,approximated,Duke 81-58 TCU
-Houston,Texas AM,2,10,-800,560,Second Round,Houston,approximated,Houston 88-57 Texas AM
-Texas,Gonzaga,11,3,280,-360,Second Round,Texas,approximated,Texas 74-68 Gonzaga
-Nebraska,Vanderbilt,4,5,140,-162,Second Round,Nebraska,approximated,Nebraska 74-72 Vanderbilt
-Arkansas,High Point,4,12,-370,290,Second Round,Arkansas,approximated,Arkansas 94-88 High Point
-Illinois,VCU,3,11,-550,380,Second Round,Illinois,approximated,Illinois 76-55 VCU
+Michigan,Saint Louis,1,9,-900,620,Second Round,Michigan,DraftKings_real,Michigan 95-72 Saint Louis
+Michigan State,Louisville,3,6,-225,185,Second Round,Michigan State,DraftKings_real,Michigan State 77-69 Louisville
+Duke,TCU,1,9,-700,490,Second Round,Duke,DraftKings_real,Duke 81-58 TCU
+Houston,Texas AM,2,10,-500,380,Second Round,Houston,DraftKings_real,Houston 88-57 Texas AM
+Texas,Gonzaga,11,3,205,-250,Second Round,Texas,DraftKings_real,Texas 74-68 Gonzaga
+Nebraska,Vanderbilt,4,5,140,-162,Second Round,Nebraska,DraftKings_real,Nebraska 74-72 Vanderbilt
+Arkansas,High Point,4,12,-700,500,Second Round,Arkansas,DraftKings_real,Arkansas 94-88 High Point
+Illinois,VCU,3,11,-550,410,Second Round,Illinois,DraftKings_real,Illinois 76-55 VCU
 Texas Tech,Alabama,5,4,-118,-102,Second Round,Alabama,DraftKings_real,Alabama 90-65 Texas Tech
 Iowa State,Kentucky,2,7,-230,190,Second Round,Iowa State,DraftKings_real,Iowa State 82-63 Kentucky
 St. John's,Kansas,5,4,-166,140,Second Round,St. John's,DraftKings_real,St. John's 67-65 Kansas
@@ -55,14 +55,14 @@ Duke,St. John's,1,5,-620,400,Sweet 16,Duke,OddsAPI_real,Duke 80-75 St. John's
 Michigan,Alabama,1,4,-455,370,Sweet 16,Michigan,OddsAPI_real,Michigan 90-77 Alabama
 UConn,Michigan State,2,3,-130,115,Sweet 16,UConn,OddsAPI_real,UConn 67-63 Michigan State
 Iowa State,Tennessee,2,6,-166,153,Sweet 16,Tennessee,OddsAPI_real,Tennessee 76-62 Iowa State
-Illinois,Houston,3,2,-165,140,Sweet 16,Illinois,approximated,Illinois 65-55 Houston
-Iowa,Nebraska,9,4,230,-290,Sweet 16,Iowa,approximated,Iowa 77-71 Nebraska
-Arizona,Arkansas,1,4,-600,430,Sweet 16,Arizona,approximated,Arizona 109-88 Arkansas
-Purdue,Texas,2,11,-400,310,Sweet 16,Purdue,approximated,Purdue 79-77 Texas
+Illinois,Houston,3,2,136,-162,Sweet 16,Illinois,DraftKings_real,Illinois 65-55 Houston
+Iowa,Nebraska,9,4,116,-138,Sweet 16,Iowa,DraftKings_real,Iowa 77-71 Nebraska
+Arizona,Arkansas,1,4,-360,285,Sweet 16,Arizona,DraftKings_real,Arizona 109-88 Arkansas
+Purdue,Texas,2,11,-360,285,Sweet 16,Purdue,DraftKings_real,Purdue 79-77 Texas
 Illinois,Iowa,3,9,-295,240,Elite Eight,Illinois,OddsAPI_real,Illinois 71-59 Iowa
 Arizona,Purdue,1,2,-250,210,Elite Eight,Arizona,OddsAPI_real,Arizona 79-64 Purdue
-Michigan,Tennessee,1,6,-800,560,Elite Eight,Michigan,approximated,Michigan 95-62 Tennessee
-UConn,Duke,2,1,165,-200,Elite Eight,UConn,approximated,UConn 73-72 Duke
-Michigan,Arizona,1,1,-150,130,Final Four,Michigan,approximated,Michigan 91-73 Arizona
-Illinois,UConn,3,2,-130,110,Final Four,UConn,approximated,UConn 71-62 Illinois
+Michigan,Tennessee,1,6,-800,540,Elite Eight,Michigan,DraftKings_real,Michigan 95-62 Tennessee
+UConn,Duke,2,1,196,-240,Elite Eight,UConn,DraftKings_real,UConn 73-72 Duke
+Michigan,Arizona,1,1,-122,102,Final Four,Michigan,DraftKings_real,Michigan 91-73 Arizona
+Illinois,UConn,3,2,-130,110,Final Four,Illinois,DraftKings_real,UConn 71-62 Illinois
 Michigan,UConn,1,2,-180,155,Championship,Michigan,VegasInsider_real,Michigan 69-63 UConn
