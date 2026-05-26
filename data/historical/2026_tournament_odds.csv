@@ -10,7 +10,7 @@ Wisconsin,High Point,5,12,-950,625,First Round,High Point,DraftKings_real,High P
 Duke,Siena,1,16,-20000,3500,First Round,Duke,DraftKings_real,Duke 71-65 Siena
 Vanderbilt,McNeese,5,12,-550,410,First Round,Vanderbilt,DraftKings_real,Vanderbilt 78-68 McNeese
 Texas AM,Saint Mary's,10,7,145,-175,First Round,Texas AM,DraftKings_real,Texas AM 63-50 Saint Mary's
-Texas,BYU,11,6,-170,150,First Round,Texas,approximated,Texas 79-71 BYU
+Texas,BYU,11,6,130,-145,First Round,Texas,approximated,Texas 79-71 BYU
 Michigan,Howard,1,16,-5000,1400,First Round,Michigan,DraftKings_real,Michigan 101-80 Howard
 VCU,North Carolina,11,6,120,-144,First Round,VCU,DraftKings_real,VCU 82-78 North Carolina OT
 Arkansas,Hawaii,4,13,-2400,1200,First Round,Arkansas,DraftKings_real,Arkansas 97-78 Hawaii — Hawaii not in CBBD
@@ -55,7 +55,7 @@ Duke,St. John's,1,5,-620,400,Sweet 16,Duke,OddsAPI_real,Duke 80-75 St. John's
 Michigan,Alabama,1,4,-455,370,Sweet 16,Michigan,OddsAPI_real,Michigan 90-77 Alabama
 UConn,Michigan State,2,3,-130,115,Sweet 16,UConn,OddsAPI_real,UConn 67-63 Michigan State
 Iowa State,Tennessee,2,6,-166,153,Sweet 16,Tennessee,OddsAPI_real,Tennessee 76-62 Iowa State
-Illinois,Houston,3,2,-300,240,Sweet 16,Illinois,approximated,Illinois 65-55 Houston
+Illinois,Houston,3,2,-165,140,Sweet 16,Illinois,approximated,Illinois 65-55 Houston
 Iowa,Nebraska,9,4,230,-290,Sweet 16,Iowa,approximated,Iowa 77-71 Nebraska
 Arizona,Arkansas,1,4,-600,430,Sweet 16,Arizona,approximated,Arizona 109-88 Arkansas
 Purdue,Texas,2,11,-400,310,Sweet 16,Purdue,approximated,Purdue 79-77 Texas
@@ -64,5 +64,5 @@ Arizona,Purdue,1,2,-250,210,Elite Eight,Arizona,OddsAPI_real,Arizona 79-64 Purdu
 Michigan,Tennessee,1,6,-800,560,Elite Eight,Michigan,approximated,Michigan 95-62 Tennessee
 UConn,Duke,2,1,165,-200,Elite Eight,UConn,approximated,UConn 73-72 Duke
 Michigan,Arizona,1,1,-150,130,Final Four,Michigan,approximated,Michigan 91-73 Arizona
-Illinois,UConn,3,2,145,-175,Final Four,UConn,approximated,UConn 71-62 Illinois
+Illinois,UConn,3,2,-130,110,Final Four,UConn,approximated,UConn 71-62 Illinois
 Michigan,UConn,1,2,-180,155,Championship,Michigan,VegasInsider_real,Michigan 69-63 UConn
