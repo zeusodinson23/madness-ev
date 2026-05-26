@@ -4,7 +4,7 @@
 
 MadnessEV pulls team efficiency ratings, builds win probability models, and compares them against real bookmaker odds to find positive expected value betting opportunities. The full 2026 tournament (67 games) is backtested with three models and tracked through a Streamlit dashboard with live model switching, Kelly criterion sizing, and cumulative P&L visualisation.
 
-**[Live Demo](https://zeusodinson23-madness-ev.streamlit.app)** &nbsp;|&nbsp; Built by Dhyey
+**[Live Demo](https://madness-ev.streamlit.app)** &nbsp;|&nbsp; Built by Dhyey
 
 ---
 
