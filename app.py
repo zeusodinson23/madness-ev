@@ -183,7 +183,6 @@ def recalculate_pnl(df, kelly_mult, starting_bankroll):
 # ── Session state ──────────────────────────────────────────────────────────────
 PERSISTENCE = {
     "p_rounds":   [],
-    "p_quality":  [],
     "p_kelly":    "1/4 Kelly",
     "p_bankroll": 1000.0,
     "p_ev_only":  False,
@@ -242,8 +241,6 @@ def apply_filters(base_df):
     df = base_df.copy()  # include all games, skipped and non-skipped
     if st.session_state["p_rounds"]:
         df = df[df["round"].isin(st.session_state["p_rounds"])]
-    if st.session_state["p_quality"]:
-        df = df[df["data_quality"].isin(st.session_state["p_quality"])]
     if st.session_state["p_ev_only"]:
         df = df[df["bet_team"].notna()]
     return df
@@ -264,19 +261,13 @@ if page == "EV Scanner":
     st.markdown('<div class="title-accent"></div>', unsafe_allow_html=True)
 
     # ── Filters ───────────────────────────────────────────────────────────────
-    f1, f2, f3, f4, f5, f6 = st.columns([2.0, 1.6, 1.3, 1.2, 1.2, 0.7])
+    f1, f3, f4, f5, f6 = st.columns([2.2, 1.5, 1.3, 1.3, 0.7])
 
     with f1:
         restore_widget("w_rounds", "p_rounds")
         st.multiselect("Round", options=ROUND_OPT,
                        placeholder="All rounds", key="w_rounds")
         save_widget("w_rounds", "p_rounds")
-
-    with f2:
-        restore_widget("w_quality", "p_quality")
-        st.multiselect("Data Quality", options=["real","approximated"],
-                       placeholder="All quality", key="w_quality")
-        save_widget("w_quality", "p_quality")
 
     with f3:
         restore_widget("w_model", "p_model")
@@ -375,7 +366,6 @@ if page == "EV Scanner":
             "Stake":     stk_str,
             "Result":    res_str,
             "P&L":       pnl_str,
-            "Quality":   r["data_quality"],
         })
 
     st.markdown(df_to_html(pd.DataFrame(rows)), unsafe_allow_html=True)
@@ -472,20 +462,7 @@ elif page == "P&L Tracker":
                        "ROI":f"{pnl/wag*100:+.1f}%" if wag else "0%"})
         st.markdown(df_to_html(pd.DataFrame(rr)), unsafe_allow_html=True)
 
-        st.markdown("---")
-        st.markdown("## Real vs Approximated Odds")
-        qr = []
-        for q in ["real","approximated"]:
-            qb = bets_df[bets_df["data_quality"] == q]
-            if not len(qb): continue
-            w = len(qb[qb["bet_result"] == "win"])
-            wag = qb["bet_stake"].sum(); pnl = qb["profit"].sum()
-            qr.append({"Quality":q.capitalize(),"Bets":len(qb),"W":w,"L":len(qb)-w,
-                       "Win%":f"{w/len(qb)*100:.0f}%",
-                       "Wagered":f"${wag:,.2f}",
-                       "P&L":f"${pnl:+,.2f}",
-                       "ROI":f"{pnl/wag*100:+.1f}%" if wag else "0%"})
-        st.markdown(df_to_html(pd.DataFrame(qr)), unsafe_allow_html=True)
+
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -711,21 +688,20 @@ elif page == "Methodology":
     <p class="meth-body">
     <strong>Betting Odds.</strong> Odds were sourced from multiple places depending on when each
     game occurred relative to our data collection window. The Odds API captured a live snapshot on
-    March 28, covering the Sweet 16 and Elite Eight. DraftKings opening lines from Selection Sunday
-    were sourced from OutKick and ESPN articles for all 55 earlier games. VegasInsider provided
-    Championship odds. Eight games where no published odds could be found use seed-based approximations
-    and are clearly labeled in the dashboard as approximated data.
+    March 28, covering 6 Sweet 16 and Elite Eight games. DraftKings opening lines were sourced from
+    OutKick, FOX Sports, ESPN, and VegasInsider articles covering all 60 earlier games. VegasInsider
+    provided Championship odds. All 67 games use real published bookmaker odds. Every game and winner
+    was cross-verified against On3.com's complete tournament tracker.
     </p>
     """, unsafe_allow_html=True)
 
     st.markdown("""
     <table class="meth-table">
-        <thead><tr><th>Source</th><th>Games</th><th>Rounds</th><th>Quality</th></tr></thead>
+        <thead><tr><th>Source</th><th>Games</th><th>Rounds</th></tr></thead>
         <tbody>
-            <tr><td>The Odds API (March 28 live snapshot)</td><td>6</td><td>Sweet 16 and Elite Eight games</td><td>Real</td></tr>
-            <tr><td>DraftKings opening lines via OutKick and ESPN</td><td>55</td><td>First Four through Second Round</td><td>Real</td></tr>
-            <tr><td>VegasInsider</td><td>1</td><td>Championship</td><td>Real</td></tr>
-            <tr><td>Seed-based approximation</td><td>5</td><td>Various Second Round and Final Four</td><td>Approximated</td></tr>
+            <tr><td>The Odds API (March 28 live snapshot)</td><td>6</td><td>Sweet 16 and Elite Eight</td></tr>
+            <tr><td>DraftKings opening lines via OutKick, FOX Sports and ESPN</td><td>60</td><td>First Four through Sweet 16</td></tr>
+            <tr><td>VegasInsider</td><td>1</td><td>Championship</td></tr>
         </tbody>
     </table>
     """, unsafe_allow_html=True)
@@ -940,10 +916,12 @@ elif page == "Methodology":
     the data is internally consistent.
     </p>
     <p class="meth-body">
-    <strong>Real odds versus approximated odds.</strong> Games where we had genuine bookmaker odds
-    showed significantly different EV profiles than games with seed-based approximations. The
-    approximated odds games produced poor ROI because the estimates were not calibrated to real
-    market pricing. Any serious evaluation of model performance should filter to real-odds games only.
+    <strong>Data integrity as a first principle.</strong> The dataset went through multiple rounds
+    of verification against authoritative sources including On3.com, FOX Sports, VegasInsider, CBS
+    Sports, and the DraftKings Network. Every one of the 67 games uses real published bookmaker
+    odds. The audit process caught swapped odds entries, wrong favourites, and one incorrect winner,
+    all of which meaningfully changed the backtest results. Clean data produced trustworthy numbers.
+    This is the most transferable lesson from the project.
     </p>
     """, unsafe_allow_html=True)
 
@@ -981,13 +959,7 @@ elif page == "Methodology":
     slow teams, even though real game pace would differ significantly. CBBD does not currently
     provide adjusted tempo data through their efficiency endpoint.
     </p>
-    <p class="meth-body">
-    Eight games in the dataset use seed-based approximated odds rather than published bookmaker
-    lines. These should be excluded from any serious evaluation of model performance.
-    </p>
-    """, unsafe_allow_html=True)
-
-    st.markdown('<hr class="meth-divider">', unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
     st.markdown('<hr class="meth-divider">', unsafe_allow_html=True)
 

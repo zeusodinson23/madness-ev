@@ -4,7 +4,7 @@
 
 MadnessEV pulls team efficiency ratings, builds win probability models, and compares them against real bookmaker odds to find positive expected value betting opportunities. The full 2026 tournament (67 games) is backtested with three models and tracked through a Streamlit dashboard with live model switching, Kelly criterion sizing, and cumulative P&L visualisation.
 
-**[Live Demo](https://madness-ev.streamlit.app)** &nbsp;|&nbsp;
+**[Live Demo](https://madness-ev.streamlit.app)** &nbsp;
 
 ---
 
@@ -12,7 +12,7 @@ MadnessEV pulls team efficiency ratings, builds win probability models, and comp
 
 Bookmakers price every game with a built-in profit margin. When a model consistently estimates a team's win probability higher than what the market implies, that gap is a positive expected value betting opportunity. MadnessEV quantifies this gap across every game of the 2026 tournament and simulates what would have happened if you had bet every identified edge.
 
-The dashboard lets you switch between three models, adjust Kelly fraction and starting bankroll, filter by round and data quality, and see how every decision plays out across the P&L curve.
+The dashboard lets you switch between three models, adjust Kelly fraction and starting bankroll, filter by round, and see how every decision plays out across the P&L curve.
 
 ---
 
@@ -46,10 +46,10 @@ V1 and V2 produce nearly identical probabilities on most games (average differen
 
 - **Team efficiency:** College Basketball Data API (collegebasketballdata.com) — AdjO and AdjD for all 365 D-I teams, 2026 season
 - **Barthag:** Calculated from AdjO and AdjD using the community approximation formula (average deviation from published values: ~0.009)
-- **Odds:** The Odds API live snapshot (March 28), DraftKings opening lines via OutKick and ESPN, VegasInsider for the Championship
-- **Tournament results:** Verified against NCAA.com, CBS Sports, On3, and ESPN for all 67 games
+- **Odds:** The Odds API live snapshot (March 28), DraftKings opening lines via OutKick, FOX Sports and ESPN, VegasInsider for the Championship
+- **Tournament results:** Cross-verified against On3.com complete tournament tracker, NCAA.com, CBS Sports, and FOX Sports for all 67 games
 
-50 of 67 games use real published bookmaker odds. 17 use seed-based approximations and are labeled accordingly in the dashboard. Approximated games should be excluded from performance evaluation.
+All 67 games use real published bookmaker odds. No approximations. Every game result was verified against On3.com's complete post-tournament record.
 
 ---
 
